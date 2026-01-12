@@ -204,6 +204,9 @@ Add the flow [`03_getting_started_data_pipeline.yaml`](flows/03_getting_started_
 - **2.3.1 - Getting Started Pipeline**   
   [![Create an ETL Pipeline with Postgres in Kestra](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F-KmwrCqRhic)](https://youtu.be/-KmwrCqRhic)
 
+#### Resources
+- [ETL Tutorial Video](https://go.kestra.io/de-zoomcamp/etl-tutorial)
+- [ETL in 3 Minutes](https://go.kestra.io/de-zoomcamp/etl-get-started)
 
 ### 2.3.2 Local DB: Load Taxi Data to Postgres
 
@@ -237,7 +240,7 @@ The flow code: [`04_postgres_taxi.yaml`](flows/04_postgres_taxi.yaml).
 #### Videos
 
 - **2.3.2 - Local DB: Load Taxi Data to Postgres**   
-  Coming soon
+  [![Local DB: Load Taxi Data to Postgres](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FZ9ZmmwtXDcU)](https://youtu.be/Z9ZmmwtXDcU)
 
 #### Resources
 - [Docker Compose with Kestra, Postgres and pgAdmin](docker-compose.yml)
@@ -253,8 +256,7 @@ The flow code: [`05_postgres_taxi_scheduled.yaml`](flows/05_postgres_taxi_schedu
 #### Videos
 
 - **2.3.3 - Scheduling and Backfills**  
-  Coming soon
-
+  [![Scheduling and Backfills](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F1pu_C_oOAMA)](https://youtu.be/1pu_C_oOAMA)
 ---
 
 ## 2.4 ELT Pipelines in Kestra: Google Cloud Platform
@@ -282,22 +284,22 @@ Over the next few videos, we'll look at setting up BigQuery and transforming the
 #### Videos
 
 - **2.4.1 - ETL vs ELT**  
-  Coming soon
+  [![ETL vs ELT](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FE04yurp1tSU)](https://youtu.be/E04yurp1tSU)
+
+#### Resources
+- [ETL vs ELT Video](https://go.kestra.io/de-zoomcamp/etl-vs-elt)
+- [Data Warehouse 101 Video](https://go.kestra.io/de-zoomcamp/data-warehouse-101)
+- [Data Lakes 101 Video](https://go.kestra.io/de-zoomcamp/data-lakes-101)
 
 ### 2.4.2 Setup Google Cloud Platform (GCP)
 
 Before we start loading data to GCP, we need to set up the Google Cloud Platform. 
 
 First, adjust the following flow [`06_gcp_kv.yaml`](flows/06_gcp_kv.yaml) to include your service account, GCP project ID, BigQuery dataset and GCS bucket name (_along with their location_) as KV Store values:
-- GCP_CREDS
 - GCP_PROJECT_ID
 - GCP_LOCATION
 - GCP_BUCKET_NAME
 - GCP_DATASET.
-
-
-> [!WARNING]  
-> The `GCP_CREDS` service account contains sensitive information. Ensure you keep it secure and do not commit it to Git. Keep it as secure as your passwords.
 
 #### Create GCP Resources
 
@@ -305,8 +307,11 @@ If you haven't already created the GCS bucket and BigQuery dataset in the first 
 
 #### Videos
 
-- **2.4.2 - Create an ETL Pipeline with GCS and BigQuery in Kestra**  
-  Coming soon
+- **2.4.2 - Setup Google Cloud Platform**  
+  [![Setup Google Cloud Platform](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FTLGFAOHpOYM)](https://youtu.be/TLGFAOHpOYM)
+
+#### Resources
+- [Set up Google Cloud Service Account in Kestra](https://go.kestra.io/de-zoomcamp/google-sa)
 
 ### 2.4.3 GCP Workflow: Load Taxi Data to BigQuery
 
@@ -336,7 +341,7 @@ The flow code: [`08_gcp_taxi.yaml`](flows/08_gcp_taxi.yaml).
 #### Videos
 
 - **2.4.3 - Create an ETL Pipeline with GCS and BigQuery in Kestra**  
-  Coming soon
+  [![Create an ETL Pipeline with GCS and BigQuery in Kestra](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F52u9X_bfTAo)](https://youtu.be/52u9X_bfTAo)
 
 ### 2.4.4 GCP Workflow: Schedule and Backfill Full Dataset
 
@@ -349,7 +354,7 @@ The flow code: [`09_gcp_taxi_scheduled.yaml`](flows/09_gcp_taxi_scheduled.yaml).
 #### Videos
 
 - **2.4.4 - GCP Workflow: Schedule and Backfills**  
-  Coming soon
+  [![GCP Workflow: Schedule and Backfills](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fb-6KhfWfk2M)](https://youtu.be/b-6KhfWfk2M)
 
 ---
 
@@ -382,7 +387,7 @@ However, AI is only as good as the context we provide. This section teaches you 
 #### Videos
 
 - **2.5.1 - Using AI for Data Engineering**  
-  Coming soon
+  [![Using AI for Data Engineering](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FGHPtRDAv044)](https://youtu.be/GHPtRDAv044)
 
 ---
 
@@ -428,7 +433,7 @@ In the next section, we'll see how Kestra's AI Copilot solves this problem.
 #### Videos
 
 - **2.5.2 - Context Engineering with ChatGPT**  
-  Coming soon
+  [![Context Engineering with ChatGPT](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FLmnfjGKwnVU)](https://youtu.be/LmnfjGKwnVU)
 
 ---
 
@@ -495,7 +500,7 @@ docker compose up -d
 #### Videos
 
 - **2.5.3 - AI Copilot in Kestra**  
-  Coming soon
+  [![AI Copilot in Kestra](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2F3IbjHfC8bMg)](https://youtu.be/3IbjHfC8bMg)
 
 
 ### 2.5.4 Bonus: Retrieval Augmented Generation (RAG)
@@ -584,7 +589,7 @@ External Documentation:
 #### Videos
 
 - **2.5.4 (Bonus) - Retrieval Augmented Generation**  
-  Coming soon
+  [![Retrieval Augmented Generation](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FXuPDQ1UcNyI)](https://youtu.be/XuPDQ1UcNyI)
 
 ## 2.6 Bonus: Deploy to the Cloud (Optional)
 
@@ -594,12 +599,7 @@ In this bonus section, we'll cover how you can deploy Kestra on Google Cloud and
 
 Note: When committing your workflows to Kestra, make sure your workflow doesn't contain any sensitive information. You can use [Secrets](https://go.kestra.io/de-zoomcamp/secret) and the [KV Store](https://go.kestra.io/de-zoomcamp/kv-store) to keep sensitive data out of your workflow logic.
 
-#### Videos
-
-- **2.6.1 - Deploy Workflows to the Cloud with Git**   
-  Coming soon
-
-Resources
+#### Resources
 
 - [Install Kestra on Google Cloud](https://go.kestra.io/de-zoomcamp/gcp-install)
 - [Moving from Development to Production](https://go.kestra.io/de-zoomcamp/dev-to-prod)
